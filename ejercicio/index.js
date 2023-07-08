@@ -13,6 +13,6 @@ const valor = "2"
 try {
     const doble = mensaje(valor)
     console.log(doble);
-} catch {
+} catch (e) {
     console.log("Error: Debe ser un número")
 }
